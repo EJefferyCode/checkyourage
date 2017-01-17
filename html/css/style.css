@@ -1,0 +1,275 @@
+html,
+body {
+height:110%;
+border: 10px solid;
+padding-bottom: 80px;
+}
+
+body {
+height:95%
+}
+
+/* hp fade in */
+hp {
+font-size:10px;
+margin-left:410px;
+color:darkblue;
+box-shadow: 10px -2px 8px #00d6ff;
+-webkit-animation:fade 6s; /* Safari, Chrome and Opera > 12.1*/   
+-moz-animation: fade 6s; /* Firefox < 16 */
+-ms-animation: fade 6s; /* IE */
+-o-animation: fade 6s; /* Opera */
+animation: fade 6s; 
+}
+@keyframes fade {
+from { opacity: 0; }
+to   { opacity: 1; }  
+}
+
+@-moz-keyframes fade {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-ms-keyframes fade {
+from { opacity: 0; }
+to   { opacity: 1; }    
+}
+
+@-o-keyframes fade {
+from { opacity: 0; }
+to   { opacity: 1; }    
+}
+
+
+/*h1 below*/
+
+
+h1 {
+margin-left:430px;
+margin-right:390px;
+-webkit-animation:fadein 2s; /* Safari, Chrome and Opera > 12.1*/   
+-moz-animation: fadein 2s; /* Firefox < 16 */
+-ms-animation: fadein 2s; /* IE */
+-o-animation: fadein 2s; /* Opera */
+animation: fadein 2s; 
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }  
+}
+
+@-moz-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }    
+}
+
+@-o-keyframes fadein {
+from { opacity: 0; }
+to   { opacity: 1; }    
+}
+
+body {
+  -webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
+  animation: background 5s cubic-bezier(1,0,0,1) infinite;  
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes background {
+0% { background-color: #f99; }
+33% { background-color: #9f9; }  
+67% { background-color: #99f; }
+100% { background-color: #f99; }
+}
+
+
+/* Firefox < 16 */
++@-moz-keyframes background {
+0% { background-color: #f99; }
+33% { background-color: #9f9; }  
+67% { background-color: #99f; }
+100% { background-color: #f99; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes background {
+0% { background-color: #f99; }
+33% { background-color: #9f9; }  
+67% { background-color: #99f; }
+100% { background-color: #f99; }
+}
+
+@keyframes background {
+0% { background-color: #f99; }
+33% { background-color: #9f9; }  
+67% { background-color: #99f; }
+100% { background-color: #f99; }
+}
+
+/* General Markup Editing */
+/***********************form 1*****************/
+.container {
+width: 800px;
+height: 656px;
+border: 10px solid;
+margin-left:110px;
+padding-top:30px;
+
+}
+/******************First Form Container******************/
+#form1 {
+border: 10px solid;
+margin-right: 30px;
+margin-left: 30px;
+padding-top:10px;
+margin-top:-15px;
+}
+/*******First Form Container End************/
+#text1 {
+margin-left:20px;
+width:30px;
+background-color:#7cf897; 
+border: 2px solid #d4fae7;
+border-radius: 20px;
+box-shadow: 7px 2px 5px #d4fae7;
+
+}
+
+#text2 {
+margin-left:20px;
+width:30px;
+background-color:#7cf897;
+border: 2px solid #d4fae7;
+border-radius: 20px;
+box-shadow: 7px 2px 5px #d4fae7;
+}
+
+#resul {
+margin-left:20px;
+width:300px;
+height:50px;
+background-color:#7cf897;
+border: 2px solid #d4fae7;
+border-radius: 20px;
+box-shadow: 7px 2px 5px #d4fae7;
+}
+
+/**Text**/
+ha {
+margin-left:20px;
+font-family: 'Slabo 27px', serif;
+}
+
+hb {
+margin-left:19px;
+font-family: 'Slabo 27px', serif;    
+}
+
+hc {
+margin-left:23px;
+font-family: 'Slabo 27px', serif;    
+}
+
+#button {
+margin-left:19px;
+background-color:#7cf897;
+border: 2px solid #d4fae7;
+border-radius: 20px;
+box-shadow: 7px 2px 5px #d4fae7;
+box-shadow: 7px 2px 5px #d4fae7;
+}
+
+
+/*************************Form 2******************************/
+
+hd {
+margin-left: 20px;
+font-family: 'Slabo 27px', serif;
+
+}
+
+he {
+margin-left: 19px;   
+font-family: 'Slabo 27px', serif;    
+}
+ 
+hf {
+margin-left:23px;
+font-family: 'Slabo 27px', serif;
+
+}
+
+#text3 {
+margin-left:20px;
+width:30px;
+background-color:#f07cf8;
+border: 2px solid #d4fae7;
+border-radius: 20px;
+box-shadow: 7px 2px 5px  #fad4fa
+;
+  
+}
+
+#text4 {
+margin-left:20px;
+width:30px;
+background-color:#f07cf8;
+border: 2px solid #d4fae7;
+border-radius: 20px;
+box-shadow: 7px 2px 5px #fad4fa;
+}
+#resul2 {
+margin-left:20px;
+width:300px;
+height:50px;
+background-color:#f07cf8;
+border: 2px solid #d4fae7;
+border-radius:20px;
+box-shadow: 7px 2px 5px #fad4fa;
+}
+
+#button2 {
+margin-left: 19px;
+background-color:#f07cf8;
+box-shadow: 7px 2px 5px #fad4fa;
+border-radius: 20px;
+}
+
+#form2 {
+border: 10px solid;
+margin-right: 30px;
+margin-left: 30px;
+margin-top: 0px;
+padding-top:10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

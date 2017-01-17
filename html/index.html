@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet"> 
+<title>Check Your Age</title>
+</head>
+
+<body>
+    <!--First Box-->
+    <h1>Check Your Age</h1>
+    <div class="container">
+    <div id="form1">
+        <b><hp>Use this section by adding your current age against any</hp><br><hp>number of years to determine your age in X amount of years.</hp><br><hp>For example: Current age = 26 + future years = 10 = 36.</hp><br></b>
+        
+        <ha id="ha" onmouseover="changeBackground()" onmouseout="backToNormal()">Current Age:</ha><br><input type="text" id="text1" name="textbox1">
+          <br><br>
+        <hb id="hb" onmouseover="changeBackground()" onmouseout="backToNormal()">Years Later:</hb><br><input type="text" id="text2" name="textbox2">
+          <br><br>
+        <hc id="hc"onmouseover="changeBackground()" onmouseout="backToNormal()">Result:</hc><br><input type="text" id="resul" name="resul">
+          <br><br>
+        <input id="button" type="button" name="clickbtn" value="Display Result" onclick="add_number()"><br><br>
+    </div>
+        
+        <!--Second Box-->
+        
+    <div id="form2">
+         <b><hp>Use this section by subtracting your birth year from any</hp><br><hp>future year to determine your age in year X.</hp><br><hp>For example: Birth year = 1990, Future year = 2020 = 2020 - 1990.</hp><br></b>
+         
+         <hd id="hd" onmouseover="changeBackground()" onmouseout="backToNormal()">Future Year:<br></hd> <input type="text" id="text3" name="textbox3">
+           <br><br>
+         <he id="he" onmouseover="changeBackground()" onmouseout="backToNormal()">Birth Year:<br></he> <input type="text" id="text4" name="textbox4">
+           <br><br>
+         <hf id="hf" onmouseover="changeBackground()" onmouseout="backToNormal()">Result:<br></hf> <input type="text" id="resul2" name="result2">
+           <br><br>
+         <input id="button2" type="button" name="clickbtn" value="Display Result" onclick="sub_number()">
+           <br><br>
+    </div>
+    </div>
+<script type="text/javascript" src="/html/css/java/js.js"></script>    
+</body>
+
+</html> 
